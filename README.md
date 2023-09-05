@@ -104,7 +104,10 @@ Disk Write Strategies: Techniques like buffering and cache management control ho
 Fail-Safe Measures: Features like battery-backed RAM or uninterruptible power supplies (UPS) ensure that committed transactions are saved even in power outages.
 
 Cloud and Distributed Systems: Modern distributed systems provide durability by ensuring data is consistently stored across multiple physical locations or even across data centers.
+
 </details>
+
+
 
 ## Transaction States
 Active: Initial phase where operations are executed.
@@ -118,5 +121,6 @@ Failed: Transaction halts due to errors.
 Aborted: After a failure, changes are reversed.
 
 Terminated: Transaction has either committed or aborted
+
 
 </details>
